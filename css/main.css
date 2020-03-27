@@ -25,7 +25,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #fff
+    color: #802428;
 }
 .w700wt
     {
@@ -3361,7 +3361,7 @@ header .firstHeader ul li {
 header .firstHeader ul li a {
     font-size: 16px;
     line-height: 22px;
-    color: #fff;
+    color: #802428;
     font-weight: 600;
     margin: 0 20px;
     position: relative
@@ -3412,7 +3412,8 @@ header .firstHeader ul li .subMenu {
     width: 130%;
     opacity: 0;
     visibility: hidden;
-    background: rgba(0,0,0,0.5);
+    background: #802428;
+    color: #FFF;
 }
 
 header .firstHeader ul li .subMenu li {
@@ -3426,7 +3427,8 @@ header .firstHeader ul li .subMenu li a {
     opacity: 0.8;
     padding: 0;
     margin: 10px 5px;
-    background-image: none
+    background-image: none;
+    color:#FFF;
 }
 
 header .firstHeader ul li .subMenu li a:after {

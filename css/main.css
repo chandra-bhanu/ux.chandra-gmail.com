@@ -955,7 +955,7 @@ header.navOpen {
     top: auto;
     bottom: 0;
     position: absolute;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .firstScreen .container .contentWrap {

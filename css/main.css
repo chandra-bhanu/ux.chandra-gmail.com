@@ -25,7 +25,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #a16166;
+    color: #802428;
 }
 .w700wt
     {
@@ -167,7 +167,7 @@ h3 {
     font-family: "HWT";
     font-size: 24px;
     font-weight: 600;
-    color: #fff
+    color: #802428
 }
 
 .h4,
@@ -385,6 +385,10 @@ textarea:focus {
 }
 
 @font-face {
+    font-family: 'millets';
+    src: URL('../fonts/Fishermills.ttf') format('truetype');
+}
+@font-face {
     font-family: 'Nexa Rust Slab Black Shadow 01';
     src: url("../fonts/Nexa Rust Slab Black Shadow 01.eot");
     src: url("../fonts/Nexa Rust Slab Black Shadow 01.eot?#iefix") format("embedded-opentype"), url("../fonts/Nexa Rust Slab Black Shadow 01.woff2") format("woff2"), url("../fonts/Nexa Rust Slab Black Shadow 01.woff") format("woff"), url("../fonts/Nexa Rust Slab Black Shadow 01.svg#Nexa Rust Slab Black Shadow 01") format("svg");
@@ -533,7 +537,7 @@ header .logo {
 }
 
 header .logo.smlLogo {
-    width: 50px;
+    width: 120px;
     transition: all 0.3s linear
 }
 
@@ -813,6 +817,19 @@ header.navOpen {
     background: url(../images/bgwave.png) 0% 0% repeat #702a62;
 }
 
+
+.mchikki .product-name
+{
+    color: #57ae50 !important;
+}
+.product-name {
+    font-family: "millets" !important;
+    font-size: 70px !important;
+    font-weight: 400;
+    color: #802428;
+    padding: 15px;
+    line-height: 50px !important;
+}
 .mchikki .homeScreenFooter
 {
    position: absolute;
@@ -897,12 +914,12 @@ header.navOpen {
 }
 
 .ptext{
-   color: #faad1a;
+   color: #802428;
   
 }
 
 .purpletext{
-    color: #6e275b
+    color: #802428
 }
 
 .firstScreen .bgBlack {
@@ -916,6 +933,20 @@ header.navOpen {
     background: url(../images/bg-detail.png) 0% 0% repeat f9efe2;#702a62
     -webkit-animation-name: MOVE-BG;
     -webkit-animation-duration: 90s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite
+}
+.bgMillet {
+    position: absolute;
+    bottom: -25%;
+    right: 0;
+    display: block;
+    width: 52%;
+    height: 100%;
+    transform: skewY(-12deg);
+    background: url(../images/bg-multi.png) 0% 0% no-repeat rgba(0,0,0,0);
+    -webkit-animation-name: SHAKE-BG;
+    -webkit-animation-duration: 3s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite
 }
@@ -938,7 +969,7 @@ header.navOpen {
 }
 
 .firstScreen .container .contentWrap .innerWrap {
-    color: #fff;
+    color: #802428;
     width: 100%;
     max-width: 100%;
     float: left
@@ -2281,7 +2312,12 @@ header.navOpen {
     max-width: 650px;
     text-align: center
 }
-
+.bottomtext
+{
+    font-weight: 600 !important;
+    font-family: cursive !important;
+    line-height: 21px !important;
+}
 .firstScreen.sixScreen .container .contentWrap .innerWrap .bottomtext .h3 {
     font-size: 40px;
     line-height: 54px;
@@ -2901,7 +2937,7 @@ footer.homepage_Footer .mainLinks {
     margin: 0;
     width: 14px;
     height: 14px;
-    background-color: #f26e61;
+    background-color: #802428;
     border: 1px solid #fff
 }
 
@@ -3362,7 +3398,7 @@ header .firstHeader ul li {
 header .firstHeader ul li a {
     font-size: 16px;
     line-height: 22px;
-    color: #a16166;
+    color: #802428;
     font-weight: 600;
     margin: 0 20px;
     position: relative
@@ -3372,7 +3408,7 @@ header .firstHeader ul li a:after {
     content: '';
     width: 0;
     height: 2px;
-    background-color: #a16166;
+    background-color: #802428;
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -3413,7 +3449,7 @@ header .firstHeader ul li .subMenu {
     width: 130%;
     opacity: 0;
     visibility: hidden;
-    background: #a16166;
+    background: #802428;
     color: #FFF;
 }
 
@@ -3797,6 +3833,22 @@ header .firstHeader ul {
     background-size: 55px;
     height: 35px;
     width: 55px;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-animation-duration: 1s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    display: block;
+    margin: 0 auto
+}
+.jumper
+{
+    background-repeat: no-repeat;
+    background-position: top center; 
+   
     -webkit-animation-name: bounce;
     animation-name: bounce;
     -webkit-animation-duration: 1s;
@@ -4759,6 +4811,14 @@ header .firstHeader ul {
     }
     to {
         background-position: 0% 100%
+    }
+}
+@-webkit-keyframes SHAKE-BG {
+    from {
+        background-position: 0% 0%
+    }
+    to {
+        background-position: 0% -10%
     }
 }
 
@@ -12401,7 +12461,7 @@ header .firstHeader ul {
         right: -100%;
         width: 100%;
         height: 104vh;
-        background-color: #a16166
+        background-color: #802428
     }
     header nav ul {
         position: absolute;

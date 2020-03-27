@@ -12556,7 +12556,7 @@ header .firstHeader ul {
         visibility: visible
     }
     header nav.active {
-        right: 0
+        right: 0;
     }
     header .logo {
        width: 70px;

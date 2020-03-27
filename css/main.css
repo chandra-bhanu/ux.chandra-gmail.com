@@ -846,7 +846,7 @@ header.navOpen {
 }
 .product-name {
     font-family: "millets" !important;
-    font-size: 70px !important;
+    font-size: 50px !important;
     font-weight: 400;
     color: #802428;
     padding: 15px;
@@ -9436,7 +9436,7 @@ header .firstHeader ul {
         height: 60%
     }
     .firstScreen.fifthScreen .container .contentWrap .innerWrap .bottomtext {
-        margin: 60px 0 0
+        margin: 0px 0 0
     }
     .firstScreen.fifthScreen .container .contentWrap .innerWrap .bottomtext .btn1 {
         margin: 20px auto 0

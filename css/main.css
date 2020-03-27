@@ -2068,6 +2068,7 @@ width:0;
 .hide-sm
     {
         display: block;
+        width:85%;
     }
 .firstScreen.fifthScreen .container .imgWrap .fifthScreen_Innerimg1 {
     width: 327px;

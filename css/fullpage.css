@@ -1,0 +1,77 @@
+html.fp-enabled,
+.fp-enabled body{margin:0;padding:0;overflow:hidden;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.fp-section{position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.fp-slide{float:left;}
+.fp-slide, .fp-slidesContainer{height:100%;display:block;}
+.fp-slides{z-index:1;height:100%;overflow:hidden;position:relative;-webkit-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
+.fp-section.fp-table, .fp-slide.fp-table{display:table;table-layout:fixed;width:100%;}
+.fp-tableCell{display:table-cell;vertical-align:middle;width:100%;height:100%;}
+.fp-slidesContainer{float:left;position:relative;}
+.fp-controlArrow{-webkit-user-select:none;-moz-user-select:none;-khtml-user-select:none;-ms-user-select:none;position:absolute;z-index:4;top:50%;cursor:pointer;width:0;height:0;border-style:solid;margin-top:-38px;-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+.fp-controlArrow.fp-prev{left:15px;width:0;border-width:38.5px 34px 38.5px 0;border-color:transparent #fff transparent transparent;}
+.fp-controlArrow.fp-next{right:15px;border-width:38.5px 0 38.5px 34px;border-color:transparent transparent transparent #fff;}
+.fp-scrollable{overflow:hidden;position:relative;}
+.fp-scroller{overflow:hidden;}
+.iScrollIndicator{border:0 !important;}
+.fp-notransition{-webkit-transition:none !important;transition:none !important;}
+#fp-nav{position:fixed;z-index:100;margin-top:-32px;top:50%;opacity:1;-webkit-transform:translate3d(0,0,0);}
+#fp-nav.fp-right{right:17px;}
+#fp-nav.fp-left{left:17px;}
+.fp-slidesNav{position:absolute;z-index:4;opacity:1;-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0);left:0 !important;right:0;margin:0 auto !important;}
+.fp-slidesNav.fp-bottom{bottom:17px;}
+.fp-slidesNav.fp-top{top:17px;}
+#fp-nav ul,
+.fp-slidesNav ul{margin:0;padding:0;}
+#fp-nav ul li,
+.fp-slidesNav ul li{display:block;width:14px;height:13px;margin:7px;position:relative;}
+.fp-slidesNav ul li{display:inline-block;}
+#fp-nav ul li a,
+.fp-slidesNav ul li a{display:block;position:relative;z-index:1;width:100%;height:100%;cursor:pointer;text-decoration:none;}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span{height:12px;width:12px;margin:-6px 0 0 -6px;border-radius:100%;}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span{border-radius:50%;position:absolute;z-index:1;height:12px;width:12px;border:0;background:#fff;left:50%;top:50%;margin:-6px 0 0 -6px;-webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out;}
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span{width:12px;height:12px;margin:-6px 0px 0px -6px;}
+#fp-nav ul li .fp-tooltip{position:absolute;top:-6px;color:#fff;font-size:12px;font-family:arial, helvetica, sans-serif;white-space:nowrap;max-width:220px;overflow:hidden;display:block;opacity:0;width:0;cursor:pointer;background: #fff;
+    padding: 0px 6px;
+    color: #000;border-radius:3px}
+#fp-nav ul li:hover .fp-tooltip,
+#fp-nav.fp-show-active a.active + .fp-tooltip{-webkit-transition:opacity 0.2s ease-in;transition:opacity 0.2s ease-in;width:auto;opacity:1;}
+#fp-nav ul li .fp-tooltip.fp-right{right:20px;z-index:9}
+#fp-nav ul li .fp-tooltip.fp-left{left:20px;}
+.fp-auto-height.fp-section,
+.fp-auto-height .fp-slide,
+.fp-auto-height .fp-tableCell{height:auto !important;}
+.fp-responsive .fp-auto-height-responsive.fp-section,
+.fp-responsive .fp-auto-height-responsive .fp-slide,
+.fp-responsive .fp-auto-height-responsive .fp-tableCell{height:auto !important;}
+
+
+/* New changes as on 10/05/2019 */
+.kumbhaScreen,.mainScreen,.gameScreen{position:relative;overflow:hidden;}
+.fp-controlArrow.fp-prev{border:0;width:42px;height:59px;background:url(../images/prevArrow.png);background-size:100%;cursor:pointer;}	
+.fp-controlArrow.fp-next{border:0;width:42px;height:59px;background:url(../images/nextArrow.png);background-size:100%;right:35px;cursor:pointer;}	
+#fp-nav{top: 65%;}
+#fp-nav ul li{float:none;}
+.firstScreen.kumbhaScreen .contentWrap .h3{font-size:12px;line-height:18px;}
+
+.firstScreen.gameScreen .bgBlack{height:100%;transform:none;bottom:0}.home-game-content,.home-game-content a{height:100%;width:100%;display:block;}.firstScreen.gameScreen .bgImg{background-image:url(../images/game-home-banner.jpg);background-repeat:no-repeat;background-size:cover;position:relative;width:100%;height:100%;display:block}.home-game-content a{position:absolute;bottom:16%;height:auto;left:0;right:0;margin:0 auto;max-width:45%}.home-game-content a img{display:block;margin:0 auto}.home-game-content a.for-mobile{display:none}.about-us-wrap p{width:90% !important}.about-us-wrap .first-p{padding-top:5%;}.about-us-wrap .second-p{padding-top:30px;}
+
+.animatedBtn {position:relative;padding: 0px 20px;border: none;background: none;cursor: pointer;text-transform: uppercase;display:inline-block;font-size: 16px;
+line-height: 38px;
+font-family: "ROCKB";color:#fff;
+background-color: transparent;border-radius: 10px;z-index: 0;overflow: hidden;text-decoration:none;border:1px solid #fff;}
+.animatedBtn:focus {outline-color: transparent;}
+.right::after, .animatedBtn::after {content: 'KNOW MORE';display: block;position: absolute;white-space: nowrap;padding: 40px 40px;pointer-events:none;z-index:0;}
+.animatedBtn::after{top: -30px;left: -20px;visibility: hidden;} 
+.right, .left {position: absolute;width: 100%;height: 100%;top: 0;}
+.right {left: 66%;}
+.left {right: 66%;}
+.right::after {top: -30px;left: calc(-66% - 20px);background-color: #333;color:transparent;transition: transform .4s ease-out;transform: translate(0, -90%) rotate(0deg);}
+.animatedBtn:hover .right::after {transform: translate(0, -50%) rotate(-7deg);}
+.animatedBtn .right:hover::after {transform: translate(0, -50%) rotate(0deg);}
+.animatedBtn .left:hover ~ .right::after {transform: translate(0, -50%) rotate(5deg);}
+.animatedBtn span{position:relative;z-index:8;} 

@@ -813,7 +813,7 @@ header.navOpen {
     background: url(../images/bgwave.png) 0% 0% repeat #702a62;
 }
 
-.mchikki .ScreenFooter
+.mchikki .homeScreenFooter
 {
    position: absolute;
     content: '';
@@ -823,7 +823,7 @@ header.navOpen {
     background-size: 200px 67px, 204px 78px;
     background-position: -5px 0px, -5px 0px;
     -webkit-animation: slide 20s linear infinite;
-    background: url(../images/mchikkiwave.png) 0% 0% repeat #43d122;
+    background: url(../images/mchikkiwave.png) 0% 0% repeat #FADA96;
 }
 .mchikki
 {
@@ -831,7 +831,7 @@ header.navOpen {
 }
 
 
-.pchikki .ScreenFooter
+.pchikki .homeScreenFooter
 {
    position: absolute;
     content: '';
@@ -847,7 +847,7 @@ header.navOpen {
 {
     background: #FADA96 !important;
 }
-.rusk .ScreenFooter
+.rusk .homeScreenFooter
 {
    position: absolute;
     content: '';
@@ -857,13 +857,13 @@ header.navOpen {
     background-size: 200px 67px, 204px 78px;
     background-position: -5px 0px, -5px 0px;
     -webkit-animation: slide 20s linear infinite;
-    background: url(../images/ruskwave.png) 0% 0% repeat #fab228;
+    background: url(../images/ruskwave.png) 0% 0% repeat #FADA96;
 }
 .rusk
 {
     background: #FADA96 !important;
 }
-.pops .ScreenFooter
+.pops .homeScreenFooter
 {
    position: absolute;
     content: '';
@@ -873,13 +873,13 @@ header.navOpen {
     background-size: 200px 67px, 204px 78px;
     background-position: -5px 0px, -5px 0px;
     -webkit-animation: slide 20s linear infinite;
-    background: url(../images/popswave.png) 0% 0% repeat #1e9caa;
+    background: url(../images/popswave.png) 0% 0% repeat #FADA96;
 }
 .pops
 {
     background: #FADA96 !important;
 }
-.namkeen .ScreenFooter
+.namkeen .homeScreenFooter
 {
    position: absolute;
     content: '';
@@ -889,7 +889,7 @@ header.navOpen {
     background-size: 200px 67px, 204px 78px;
     background-position: -5px 0px, -5px 0px;
     -webkit-animation: slide 20s linear infinite;
-    background: url(../images/namkeenwave.png) 0% 0% repeat #cb2228;
+    background: url(../images/namkeenwave.png) 0% 0% repeat #FADA96;
 }
 .namkeen
 {

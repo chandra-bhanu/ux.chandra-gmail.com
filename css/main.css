@@ -48,7 +48,20 @@ body {
     top: 15px;
     padding: 0px 21px;
 }
-
+.speciality span>p {
+    color: #802428;
+    font-size: 56px !important;
+    /* font-weight: 600; */
+    /* display: block; */
+    left: 56px;
+    top: 15px;
+    position: absolute;
+}
+.speciality span>small {
+    margin-left: 40px;
+    text-align: left;
+    display: block;
+}
 .w700wt
     {
         font-weight:600 !important;
@@ -848,6 +861,11 @@ header.navOpen {
 {
     color: #6e275b !important;
 }
+.rusk .product-name
+{
+    color: #6a68b0 !important;
+}
+
 .product-name {
     font-family: "millets" !important;
     font-size: 50px !important;
@@ -906,10 +924,10 @@ header.navOpen {
     -webkit-animation: slide 20s linear infinite;
     background: url(../images/ruskwave.png) 0% 0% repeat #FADA96;
 }
-.rusk
+/*.rusk
 {
     background: #FADA96 !important;
-}
+}*/
 .pops .homeScreenFooter
 {
    position: absolute;
@@ -2067,6 +2085,17 @@ header.navOpen {
     width: 100%;
     height: 100%;
     background-image: url(../images/peanut-screen-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%
+
+ } 
+ .multiAnimate.rusk abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/ragi-screen-cloud.png);
     background-repeat: no-repeat;
     background-size: 100%;
     transform: rotate(0deg);
@@ -9458,10 +9487,10 @@ header .firstHeader ul {
         margin: 20px auto 0
     }
     .firstScreen.fifthScreen.sixScreen .container .contentWrap .innerWrap .bottomtext {
-        margin: 30px 0 0
+        margin: 0px 0 0
     }
     .firstScreen.secondScreen .container .contentWrap .innerWrap ul {
-        margin: 60px 0 20px
+        margin: 0px 0 20px
     }
     .firstScreen.secondScreen.thirdScreen .container .contentWrap .innerWrap ul {
         margin: 0 0 20px
@@ -14096,7 +14125,22 @@ width: 150px;
     top: 12px;
     padding: 0px 18px;
 }
-    .firstScreen.fourthScreen.fifthScreen .container .contentWrap,
+  
+
+.speciality span>p {
+    color: #802428;
+    font-size: 44px !important;
+    /* font-weight: 600; */
+    /* display: block; */
+    left: 53px !important;
+    top: 9px;
+    position: absolute;
+}
+.speciality span>small {
+    margin-left: 24px;
+    text-align: left;
+    display: block;
+}.firstScreen.fourthScreen.fifthScreen .container .contentWrap,
     .firstScreen.secondScreen .container .contentWrap,
     .firstScreen.secondScreen.thirdScreen .container .contentWrap {
         margin: 0

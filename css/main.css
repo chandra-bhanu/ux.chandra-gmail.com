@@ -22,11 +22,33 @@ body {
     line-height: 21px;
     width: 100%;
     float: left;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Averia Sans Libre', cursive;
     font-size: 16px;
     line-height: 24px;
     color: #802428;
 }
+.speciality {
+    font-size: 24px;
+}
+.speciality span {
+    display: inline-block;
+    padding: 0px 23px 0px 0px;
+    text-align: center;
+    /* border-left: 2px solid #802428; */
+}
+
+.speciality span:last-child:after {
+    content: "";
+    position: absolute;
+    
+}
+.speciality span:after {
+    content: "|";
+    position: absolute;
+    top: 15px;
+    padding: 0px 21px;
+}
+
 .w700wt
     {
         font-weight:600 !important;
@@ -399,8 +421,7 @@ textarea:focus {
 
 @font-face {
     font-family: 'HWT';
-    src: url("../fonts/HWT.eot");
-    src: url("../fonts/HWT.eot") format("embedded-opentype"), url("../fonts/HWT.woff2") format("woff2"), url("../fonts/HWT.woff") format("woff"), url("../fonts/HWT.ttf") format("truetype"), url("../fonts/HWT.svg#HWT") format("svg")
+     src: URL('../fonts/HWT.ttf') format('truetype');
 }
 
 @font-face {
@@ -536,8 +557,9 @@ header .logo {
     width: 180px
 }
 
-header .logo.smlLogo {
-    width: 120px;
+header .logo {
+    width: 100px;
+    margin-top: 5px;
     transition: all 0.3s linear
 }
 
@@ -828,7 +850,11 @@ header.navOpen {
     font-weight: 400;
     color: #802428;
     padding: 15px;
-    line-height: 50px !important;
+    line-height: 35px !important;
+}
+.product-name small
+{
+    font-size: 35px !important;
 }
 .mchikki .homeScreenFooter
 {
@@ -2020,6 +2046,29 @@ header.navOpen {
     margin: 0 auto
 }
 
+
+.multiAnimate abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/multimillet-screen-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%;
+
+ } 
+.multiAnimate {
+width:0;
+        height: 0;
+        top: 35%;
+        left: -70%;
+        position: absolute;
+    }
+.hide-sm
+    {
+        display: block;
+    }
 .firstScreen.fifthScreen .container .imgWrap .fifthScreen_Innerimg1 {
     width: 327px;
     height: 164px;
@@ -2315,7 +2364,7 @@ header.navOpen {
 .bottomtext
 {
     font-weight: 600 !important;
-    font-family: cursive !important;
+    font-family: 'Averia Sans Libre', cursive;
     line-height: 21px !important;
 }
 .firstScreen.sixScreen .container .contentWrap .innerWrap .bottomtext .h3 {
@@ -12510,7 +12559,8 @@ header .firstHeader ul {
         right: 0
     }
     header .logo {
-        width: 70px
+        width: 90px;
+    margin-top: 8px;
     }
     header {
         padding: 5px 0px 5px 0px
@@ -13174,7 +13224,17 @@ header .firstHeader ul {
         width: 70px;
         height: 70px
     }
-    
+    .multiAnimate {
+width: 150px;
+        height: 120px;
+        top: 55%;
+        left: -20%;
+        position: absolute;
+    }
+    .hide-sm
+    {
+        display: none;
+    }
     .firstScreen.fifthScreen .container .imgWrap .fifthScreen_Innerimg2 {
         width: 70px;
         height: 60px
@@ -13997,6 +14057,28 @@ header .firstHeader ul {
     .firstScreen.secondScreen .container .contentWrap .innerWrap .bottomtext {
         margin: 0
     }
+    .speciality {
+    font-size: 20px;
+}
+.speciality span {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+    text-align: center;
+    line-height: 18px;
+    /* border-left: 2px solid #802428; */
+}
+
+.speciality span:last-child:after {
+    content: "";
+    position: absolute;
+    
+}
+.speciality span:after {
+    content: "|";
+    position: absolute;
+    top: 12px;
+    padding: 0px 18px;
+}
     .firstScreen.fourthScreen.fifthScreen .container .contentWrap,
     .firstScreen.secondScreen .container .contentWrap,
     .firstScreen.secondScreen.thirdScreen .container .contentWrap {

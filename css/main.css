@@ -797,7 +797,7 @@ header.navOpen {
     background-size: 200px 67px, 204px 78px;
     background-position: -5px 0px, -5px 0px;
     -webkit-animation: slide 20s linear infinite;
-    background: url(../images/bgwave.png) 0% 0% repeat #702a62;
+    background: url(../images/bgwave.png) 0% 0% repeat #FADA96;
 }
 
 .ScreenFooter

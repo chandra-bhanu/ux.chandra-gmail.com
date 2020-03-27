@@ -32,7 +32,7 @@ body {
 }
 .speciality span {
     display: inline-block;
-    padding: 0px 23px 0px 0px;
+    padding: 0px 15px 0px 15px;
     text-align: center;
     /* border-left: 2px solid #802428; */
 }
@@ -14062,7 +14062,7 @@ width: 150px;
 }
 .speciality span {
     display: inline-block;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 15px 0px 15px;
     text-align: center;
     line-height: 18px;
     /* border-left: 2px solid #802428; */

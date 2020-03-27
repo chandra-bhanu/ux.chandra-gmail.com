@@ -865,14 +865,22 @@ header.navOpen {
 {
     color: #6a68b0 !important;
 }
+.pops .product-name
+{
+    color: #1e9caa !important;
+}
+.namkeen .product-name
+{
+    color: #8f221f !important;
+}
 
 .product-name {
     font-family: "millets" !important;
     font-size: 50px !important;
     font-weight: 400;
-    color: #802428;
+   
     padding: 10px;
-/*    line-height: 35px !important;*/
+    line-height: 40px !important;
 }
 .product-name small
 {
@@ -940,10 +948,7 @@ header.navOpen {
     -webkit-animation: slide 20s linear infinite;
     background: url(../images/popswave.png) 0% 0% repeat #FADA96;
 }
-.pops
-{
-    background: #FADA96 !important;
-}
+
 .namkeen .homeScreenFooter
 {
    position: absolute;
@@ -2102,6 +2107,30 @@ header.navOpen {
     background-size: 100%
 
  } 
+ .multiAnimate.popss abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/popss-screen-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%
+
+ } 
+ 
+  .multiAnimate.namkeens abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/namkeens-screen-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%
+
+ } 
+ 
 .multiAnimate {
 width:0;
         height: 0;

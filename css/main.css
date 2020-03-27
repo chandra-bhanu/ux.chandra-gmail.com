@@ -849,8 +849,8 @@ header.navOpen {
     font-size: 50px !important;
     font-weight: 400;
     color: #802428;
-    padding: 15px;
-    line-height: 35px !important;
+    padding: 10px;
+/*    line-height: 35px !important;*/
 }
 .product-name small
 {
@@ -12559,8 +12559,8 @@ header .firstHeader ul {
         right: 0
     }
     header .logo {
-        width: 90px;
-    margin-top: 8px;
+       width: 70px;
+    margin-top: 11px;
     }
     header {
         padding: 5px 0px 5px 0px
@@ -13767,7 +13767,7 @@ width: 150px;
     }
     .firstScreen.secondScreen .container .contentWrap .innerWrap h3 {
         font-size: 40px;
-        line-height: 50px;
+       
     }
     .firstScreen.secondScreen .container .contentWrap .innerWrap .h2 {
         font-size: 24px;
@@ -14060,6 +14060,7 @@ width: 150px;
     .speciality {
     font-size: 20px;
 }
+
 .speciality span {
     display: inline-block;
     padding: 0px 15px 0px 15px;

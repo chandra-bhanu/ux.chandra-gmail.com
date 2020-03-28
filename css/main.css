@@ -865,7 +865,23 @@ header.navOpen {
 {
     color: #6a68b0 !important;
 }
+.muselirusk .product-name
+{
+    color: #00b09b !important;
+}
 .pops .product-name
+{
+    color: #7664a0 !important;
+}
+.sesamepops .product-name
+{
+    color: #ec6851 !important;
+}
+.coconutpops .product-name
+{
+    color: #00b09b !important;
+}
+.honeypops .product-name
 {
     color: #1e9caa !important;
 }
@@ -931,6 +947,19 @@ header.navOpen {
     -webkit-animation: slide 20s linear infinite;
     background: url(../images/ruskwave.png) 0% 0% repeat #FADA96;
 }
+.muselirusk .homeScreenFooter
+{
+   position: absolute;
+    content: '';
+    bottom: 9px;
+    height: 94px;
+    width: 100%;
+    background-size: 200px 67px, 204px 78px;
+    background-position: -5px 0px, -5px 0px;
+    -webkit-animation: slide 20s linear infinite;
+    background: url(../images/museliruskwave.png) 0% 0% repeat #FADA96;
+}
+
 /*.rusk
 {
     background: #FADA96 !important;
@@ -947,7 +976,42 @@ header.navOpen {
     -webkit-animation: slide 20s linear infinite;
     background: url(../images/popswave.png) 0% 0% repeat #FADA96;
 }
-
+.honeypops .homeScreenFooter
+{
+   position: absolute;
+    content: '';
+    bottom: 9px;
+    height: 94px;
+    width: 100%;
+    background-size: 200px 67px, 204px 78px;
+    background-position: -5px 0px, -5px 0px;
+    -webkit-animation: slide 20s linear infinite;
+    background: url(../images/honeywave.png) 0% 0% repeat #FADA96;
+}
+.sesamepops .homeScreenFooter
+{
+   position: absolute;
+    content: '';
+    bottom: 9px;
+    height: 94px;
+    width: 100%;
+    background-size: 200px 67px, 204px 78px;
+    background-position: -5px 0px, -5px 0px;
+    -webkit-animation: slide 20s linear infinite;
+    background: url(../images/sesamepopswave.png) 0% 0% repeat #FADA96;
+}
+.coconutpops .homeScreenFooter
+{
+   position: absolute;
+    content: '';
+    bottom: 9px;
+    height: 94px;
+    width: 100%;
+    background-size: 200px 67px, 204px 78px;
+    background-position: -5px 0px, -5px 0px;
+    -webkit-animation: slide 20s linear infinite;
+    background: url(../images/cocunutpopswave.png) 0% 0% repeat #FADA96;
+}
 .namkeen .homeScreenFooter
 {
    position: absolute;
@@ -2106,11 +2170,55 @@ header.navOpen {
     background-size: 100%
 
  } 
+  .multiAnimate.mrusk abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/museli-screen-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%
+
+ } 
  .multiAnimate.popss abbr {
     display: inline-block;
     width: 100%;
     height: 100%;
     background-image: url(../images/popss-screen-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%
+
+ } 
+  .multiAnimate.coconutpops abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/cocunutpops-screen-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%
+
+ } 
+  .multiAnimate.sesamepop abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/sesamepops-screen-cloud);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(0deg);
+    background-size: 100%
+
+ }
+  .multiAnimate.honeypop abbr {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/honeypops-screen-cloud.png);
     background-repeat: no-repeat;
     background-size: 100%;
     transform: rotate(0deg);

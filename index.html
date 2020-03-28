@@ -779,19 +779,19 @@ Jaggery and coconut. What are you waiting for?
                     afterLoad: function(origin, destination, direction){
                         console.log('destination', destination);
                         $('header').removeClass('showBg');
-                        if(destination.isFirst == false){
-                            $('.firstHeader').addClass('up-header');
-                            $('.menuiconbx').addClass('menuactive');
-                            $('.logo').addClass('smlLogo');
-                            $("header").addClass('showIcon'); 
-                            $("header").addClass('homeHeader'); 
-                        } else{
-                            $('.firstHeader').removeClass('up-header');
-                            $('.menuiconbx').removeClass('menuactive');
-                            $('.logo').removeClass('smlLogo');
-                            $("header").removeClass('showIcon'); 
-                            $("header").removeClass('homeHeader'); 
-                        }
+//                        if(destination.isFirst == false){
+//                            $('.firstHeader').addClass('up-header');
+//                            $('.menuiconbx').addClass('menuactive');
+//                            $('.logo').addClass('smlLogo');
+//                            $("header").addClass('showIcon'); 
+//                            $("header").addClass('homeHeader'); 
+//                        } else{
+//                            $('.firstHeader').removeClass('up-header');
+//                            $('.menuiconbx').removeClass('menuactive');
+//                            $('.logo').removeClass('smlLogo');
+//                            $("header").removeClass('showIcon'); 
+//                            $("header").removeClass('homeHeader'); 
+//                        }
                         $(".menuiconbx").click(function(){
                             if(destination.isFirst == false){
                                 $('header').addClass('showBg');

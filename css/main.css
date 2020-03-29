@@ -2216,7 +2216,7 @@ header.navOpen {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-image: url(../images/sesamepops-screen-cloud);
+    background-image: url(../images/sesamepops-screen-cloud.png);
     background-repeat: no-repeat;
     background-size: 100%;
     transform: rotate(0deg);
@@ -12945,7 +12945,7 @@ header .firstHeader ul {
         max-width: 180px
     }
     .firstScreen.secondScreen.fourthScreen .container .contentWrap .innerWrap {
-        top: -10px
+        top: 0px
     }
     .firstScreen.fourthScreen .fourthScreen_Iconimg8 {
         width: 70px;
@@ -13950,7 +13950,7 @@ width: 150px;
         margin: 0
     }
     .firstScreen.secondScreen.fourthScreen .container .contentWrap .innerWrap {
-        top: -20px
+        top: 0px
     }
     .firstScreen.secondScreen.fourthScreen .container .contentWrap .innerWrap .tandoori img {
         max-width: 140px
@@ -14589,4 +14589,15 @@ header .menuiconbx {
       font-size: 14px;
       line-height: 15px
   }  
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 751px) { 
+ .firstScreen.secondScreen.fourthScreen .container .contentWrap .innerWrap {
+        top: 15px !important;
+    }
+    
+     .bottomtext
+  {
+      font-size: 12px !important;
+      line-height: 14px !important;
+  }   
 }

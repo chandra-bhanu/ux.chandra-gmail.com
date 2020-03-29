@@ -14663,7 +14663,7 @@ Page : about-US
 .main-timeline .timeline-content{
     color: #fff;
     padding: 15px 60px 15px 75px;
-    border-top: 3px solid #FFF;
+    border-top: 0px solid #FFF;
     display: block;
     position: relative;
 }
@@ -14679,7 +14679,7 @@ Page : about-US
     top: 0;
 }
 .main-timeline .timeline-content:after{
-    background: #FFF;
+    background: rgba(0,0,0,0);
     height:20px;
     width: 20px;
     border-radius: 50%;
@@ -14759,19 +14759,66 @@ Page : about-US
     position: absolute;
     height: 120px;
     width: 120px;
- 
+ top: 100px;
     right: -37px;
 }
 
-@media screen and (max-width:767px){
-    .ticon {
+.main-timeline .timeline:nth-child(even) .title{
+    right: -75%;
     position: relative;
-     right: 0px;
+
+}
+
+.title {
+    width: 180px;
+    background: #FFF;
+    color: #444 !important;
+    width: 80px;
+    height: 100px;
+    border-radius: 10px 10px 0px 0px !important;
+}
+.topaprt {
+    background: #F8CE03;
+    padding: 7px 0px;
+    color: #000;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.mtitle {
+    color: #000 !important;
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+span.suntitle {
+    font-size: 14px;
+}
+@media screen and (max-width:767px){
+    .title {
+/*    / position: absolute;   */
+    }
+    
+    .ticon {
+   right: 49px;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+   
+}
+.main-timeline .timeline:nth-child(even) .ticon {
+    right: auto;
+    left: 180px;
 }
 .policy 
 {
     
     padding : 25% 0%;
+}
+.timeline-content{
+text-align: justify !important;
 }
     .main-timeline:before{
         transform: translateX(0);
@@ -14783,7 +14830,7 @@ Page : about-US
     }
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(even) .timeline-content{
-        padding: 15px 60px 15px 70px;
+        padding: 15px 20px 15px 70px;
     }
     .main-timeline .timeline:nth-child(even) .timeline-content:before{
         right: auto;

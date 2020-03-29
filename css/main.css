@@ -838,6 +838,18 @@ header.navOpen {
     -webkit-animation: slide 20s linear infinite;
     background: url(../images/bgwave.png) 0% 0% repeat #FADA96;
 }
+.happyhomeScreenFooter
+{
+   position: absolute;
+    content: '';
+    bottom: 9px;
+    height: 94px;
+    width: 100%;
+    background-size: 200px 67px, 204px 78px;
+    background-position: -5px 0px, -5px 0px;
+    -webkit-animation: slide 20s linear infinite;
+    background: url(../images/happyhomewave.png) 0% 0% repeat #dfcdc3;
+}
 
 .ScreenFooter
 {
@@ -889,7 +901,10 @@ header.navOpen {
 {
     color: #000000 !important;
 }
-
+.happyness .product-name
+{
+    color: #bc5661 !important;
+}
 .product-name {
     font-family: "millets" !important;
     font-size: 50px !important;

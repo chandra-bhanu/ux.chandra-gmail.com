@@ -794,8 +794,12 @@ Jaggery and coconut. What are you waiting for?
 					}, 5000);
 				},
                     afterLoad: function(origin, destination, direction){
-                        console.log('destination', destination);
+                      
                         $('header').removeClass('showBg');
+                         $('header').removeClass('showBg');
+                         if(destination.isLast == true){
+                             $('#scroll-down').hide();
+                         }
 //                        if(destination.isFirst == false){
 //                            $('.firstHeader').addClass('up-header');
 //                            $('.menuiconbx').addClass('menuactive');

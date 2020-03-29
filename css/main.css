@@ -850,7 +850,18 @@ header.navOpen {
     -webkit-animation: slide 20s linear infinite;
     background: url(../images/happyhomewave.png) 0% 0% repeat #dfcdc3;
 }
-
+.abouthomeScreenFooter
+{
+   position: absolute;
+    content: '';
+    bottom: 9px;
+    height: 94px;
+    width: 100%;
+    background-size: 200px 67px, 204px 78px;
+    background-position: -5px 0px, -5px 0px;
+    -webkit-animation: slide 20s linear infinite;
+    background: url(../images/abouthomewave.png) 0% 0% repeat #cae0dd;
+}
 .ScreenFooter
 {
    position: absolute;
@@ -864,7 +875,10 @@ header.navOpen {
     background: url(../images/bgwave.png) 0% 0% repeat #702a62;
 }
 
-
+.about .product-name
+{
+    color: #159071 !important;
+}
 .mchikki .product-name
 {
     color: #57ae50 !important;
@@ -14615,4 +14629,186 @@ header .menuiconbx {
       font-size: 12px !important;
       line-height: 14px !important;
   }   
+}
+/*
+Page : about-US
+*/
+.main-timeline{
+   margin:10% 0%;
+    position: relative;
+}
+.main-timeline:before{
+    content: '';
+    width: 5px;
+    height: 100%;
+    border-left: 3px dashed #fff;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 1;
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline{
+    width: calc(50% + 25px);
+    padding: 0;
+    margin: 0 0 0 50px;
+    float: right;
+    position: relative;
+}
+.main-timeline .timeline-content{
+    color: #fff;
+    padding: 15px 60px 15px 75px;
+    border-top: 3px solid #FFF;
+    display: block;
+    position: relative;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-content:before,
+.main-timeline .timeline-content:after{
+    content: '';
+    background: linear-gradient(to bottom,#444444,#444444);
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main-timeline .timeline-content:after{
+    background: #FFF;
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    left: auto;
+    right: 0;
+    top: -11px;
+}
+.main-timeline .timeline-icon{
+    color: #FFF;
+    font-size: 40px;
+    text-shadow: 0 0 5px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.main-timeline .title{
+    color: #159071 !important;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 7px 0;
+}
+.main-timeline .description span.bold
+{
+    font-family: "HWT";
+     font-size: 18px;
+}
+.main-timeline .description{
+     font-size: 14px !important;
+    letter-spacing: 1px;
+    color: #802428 !important;
+    text-align: left !important;
+    margin: 0;
+    font-weight: 600;
+}
+.main-timeline .timeline:nth-child(even){
+    margin: 0 50px 0 0;
+    float: left;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content{ padding: 15px 70px 15px 60px; }
+.main-timeline .timeline:nth-child(even) .timeline-content:before{
+    left: auto;
+    right: 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-content:after{
+    right: auto;
+    left: 0;
+}
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    right: auto;
+    left: 0;
+}
+/*.main-timeline .timeline:nth-child(4n+2) .timeline-content:before{
+    background: linear-gradient(to bottom,#FF8A2D,#FE6529);
+}
+.main-timeline .timeline:nth-child(4n+2) .title{ color: #FE6529; }
+
+
+.main-timeline .timeline:nth-child(4n+3) .timeline-content:before{
+    background: linear-gradient(to bottom,#01A9DA,#0076F4);
+}
+.main-timeline .timeline:nth-child(4n+3) .title{ color: #0076F4; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-content:before{
+    background: linear-gradient(to bottom,#3CECA3,#11AD9F);
+}
+.main-timeline .timeline:nth-child(4n+4) .title{ color: #11AD9F; }*/
+.ticon img {
+    width: 100%;
+    right: 0;
+}
+.main-timeline .timeline:nth-child(even) .ticon{
+    right: auto;
+    left: -37px;
+}
+.ticon {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+ 
+    right: -37px;
+}
+
+@media screen and (max-width:767px){
+    .ticon {
+    position: relative;
+     right: 0px;
+}
+.policy 
+{
+    
+    padding : 25% 0%;
+}
+    .main-timeline:before{
+        transform: translateX(0);
+        left: 22px;
+    }
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(even) .timeline-content{
+        padding: 15px 60px 15px 70px;
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-content:before{
+        right: auto;
+        left: 0;
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-content:after{
+        right: 0;
+        left: auto;
+    }
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        left: auto;
+        right: 0;
+    }
+    .main-timeline{
+        margin: 20% 0% 10% 0% !important;
+    }  
+}
+@media screen and (max-width:567px){
+    .main-timeline .title{ font-size: 18px; }
+}
+.policy 
+{
+    
+    padding : 10% 0%;
+}
+.preview p{
+    color: #802428 !important;
 }

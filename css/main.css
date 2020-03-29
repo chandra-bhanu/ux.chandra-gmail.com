@@ -14812,6 +14812,11 @@ span.suntitle {
     right: auto;
     left: 180px;
 }
+.main-timeline .timeline:nth-child(even) .title{
+    right: 0;
+    position: relative;
+ 
+}
 .policy 
 {
     

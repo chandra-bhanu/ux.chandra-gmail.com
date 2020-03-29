@@ -1033,7 +1033,16 @@ header.navOpen {
    color: #802428
   
 }
-
+.firstScreen .container{transform: translate(-50%, -44%);}
+					.spotDesktop{display:block !important;}
+					.spotMobile{display:none !important;}
+					@media screen and (max-width: 767px) {
+					  .spotDesktop {display:none !important;}
+					  .spotMobile{display:block !important;}
+					  .firstScreen .container{top: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    left: 50% !important;}
+					}
 .purpletext{
     color: #802428
 }
@@ -3676,7 +3685,7 @@ header .firstHeader ul li .subMenu {
     position: absolute;
     top: 30px;
     left: 20px;
-    width: 130%;
+    width: 200%;
     opacity: 0;
     visibility: hidden;
     background: #802428;
@@ -3843,7 +3852,7 @@ footer .mainLinks .linksWrap ul:nth-child(2) {
 }
 
 header .firstHeader ul {
-    max-width: 430px
+    max-width: 560px
 }
 
 .firstScreen.kumbhaScreen .bgBlack {
@@ -14543,4 +14552,41 @@ width: 150px;
     .firstScreen.secondScreen .container .contentWrap {
         margin: 45px 0 0
     }
+}
+
+@media screen and (max-width: 767px) {
+    .product-name {
+    
+    font-size: 40px !important;
+    font-weight: 400;
+    padding: 0px;
+    line-height: 35px !important;
+}
+
+ header .logo {
+       width: 65px;
+    margin-top: 5px;
+    }
+header .menuiconbx {
+    width: 40px;
+    height: 40px;
+   
+}
+ .speciality {
+    font-size: 18px;
+}
+
+.speciality span {
+   
+    padding: 0px 12px 0px 12px;
+   
+}
+.firstScreen .container .contentWrap .innerWrap p {
+        padding-right: 35px;
+    }
+  .bottomtext
+  {
+      font-size: 14px;
+      line-height: 15px
+  }  
 }

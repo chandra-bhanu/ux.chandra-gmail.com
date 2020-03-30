@@ -940,7 +940,8 @@ header.navOpen {
     background-size: 200px 67px, 204px 78px;
     background-position: -5px 0px, -5px 0px;
     -webkit-animation: slide 20s linear infinite;
-    background: url(../images/mchikkiwave.png) 0% 0% repeat #FADA96;
+ background: url(../images/mchikkiwave.png) 0% 0% repeat #FADA96;
+/* background: url(../images/mchikkiwave.png) 0% 0% repeat rgba(0,0,0,0) ;*/
 }
 .mchikki
 {
@@ -1090,6 +1091,20 @@ header.navOpen {
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite
 }
+
+.firstScreen .bgMBlack {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 100%;    
+    background-image: url("../images/mchikki-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bgMillet {
     position: absolute;
     bottom: -25%;

@@ -14913,6 +14913,10 @@ span.bgScreen {
 .tghome .container .contentWrap {
     width: calc(36% - 4px);
 }
+.mchikki .innerWrap {
+    background: url(../images/tgdott.png) 0% 0% no-repeat rgba(0,0,0,0) !important;
+    background-size: 93% !important;
+}
 @media only screen and (max-width: 767px)
 {
     
@@ -14930,4 +14934,8 @@ span.bgScreen {
     background: url(../images/tgdott.png) 48% 50% no-repeat #FFF !important;
     background-size: 137% !important;
 } 
+.mchikki .innerWrap {
+     background:  rgba(0,0,0,0) !important;
 }
+}
+

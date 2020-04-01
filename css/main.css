@@ -14889,7 +14889,7 @@ span.bgScreen {
     height: 100%;
     top: 0;
     background-size: 85%;
-    left: 0;
+    left: 0; 
 }
 .tghome .contentWrap {
     margin: 0 !important;

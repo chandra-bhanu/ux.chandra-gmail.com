@@ -14882,3 +14882,26 @@ text-align: justify !important;
 {
     border: 10px solid rgba(255,255,255,0.8);
 }
+span.bgScreen {
+    background: url('../images/tg_fancy_bg.png') 100% 0% no-repeat #FFF;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-size: 85%;
+    left: 0;
+}
+.tghome .contentWrap {
+    margin: 0 !important;
+}
+@media only screen and (max-width: 767px)
+{
+    
+    span.bgScreen { 
+    background-size: 200%;
+    }   
+    .tghome .contentWrap {
+    margin: 85% 0 0 0 !important;
+    text-align: center;
+}
+}

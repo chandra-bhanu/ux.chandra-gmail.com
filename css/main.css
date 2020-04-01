@@ -14894,6 +14894,10 @@ span.bgScreen {
 .tghome .contentWrap {
     margin: 0 !important;
 }
+
+.tghome .container .contentWrap {
+    width: calc(36% - 4px);
+}
 @media only screen and (max-width: 767px)
 {
     
@@ -14903,5 +14907,8 @@ span.bgScreen {
     .tghome .contentWrap {
     margin: 85% 0 0 0 !important;
     text-align: center;
+}
+.tghome .container .contentWrap {
+    width: auto  !important;
 }
 }

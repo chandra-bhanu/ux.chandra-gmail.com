@@ -14949,14 +14949,19 @@ span.bgScreen {
 }
 }
 
+.tgsecond, .tgsecond .container
+{
+    background: #855252 !important;
+}
+
 span.rbgScreen {
     position: absolute;
-    width: 100%;
+    width: 60%;
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../images/L3.jpg) -45% 0% no-repeat #855252;
-    /* background-size: cover;*/
+    background: url(../images/L3.jpg) 0% 0% no-repeat #855252;
+    background-size: cover;
 }
 .product-name.white, .tgsecond, .tgsecond .headingText 
 {
@@ -14975,6 +14980,7 @@ span.rbgScreen {
 span.rbgScreen {
     background: url(../images/L4.jpg) 0% 0% no-repeat #855252;
     background-size: cover;
+      width: 100%;
 }
     .tgsecond .container {
     max-width: 80%;
@@ -14985,5 +14991,8 @@ span.rbgScreen {
     top: 20%;
     text-align: center !important;
 }
-
+.tgsecond .container
+{
+    background: none !important;
+}
 }

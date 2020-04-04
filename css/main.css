@@ -14996,3 +14996,112 @@ span.rbgScreen {
     background: none !important;
 }
 }
+
+
+.productdisplay .singleproduct, .productdisplay .fullproduct {
+/*    display: inline-block;
+    width: 33%;*/
+   
+    text-align: center;
+    height:350px;
+    padding: 0% 20px;
+}
+.productdisplay .singleproduct img {
+   
+     width: 90%;
+}
+.product-title {
+    position: absolute;
+    color: #FFF;
+    text-align: left;
+    top: 14%;
+    right: 10%;
+}
+
+.productdisplay .fullproduct img {
+   width: 35%;
+   
+}
+.productholder
+{
+    cursor:pointer;
+}
+
+.color-1
+{
+      background: #ffc89c;
+}
+.color-2
+{
+      background: #ffdb97;
+}
+.color-3
+{
+      background: #cac4ff;
+}
+.color-4
+{
+      background: #352021;
+}
+.color-5
+{
+      background: #d0f6f1;
+}
+.color-6
+{
+      background: #ffd5cf;
+}
+.color-7
+{
+      background: #d8d8d8;
+}
+
+/*
+CSS FLIP CODE
+.productdisplay .row {
+  perspective: 1000px;  Remove this if you don't want the 3D effect 
+}
+
+ This container is needed to position the front and back side 
+.productholder {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+ Do an horizontal flip when you move the mouse over the flip box container 
+.productholder:hover {
+  transform: rotateY(180deg);
+}
+
+ Position the front and back side 
+.topFlip, .bottomFlop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;  Safari 
+  backface-visibility: hidden;
+}
+
+
+ Style the back side 
+.bottomFlop {
+  transform: rotateY(180deg);
+}
+CSS FLIP CODE END
+*/
+
+.bottomFlop 
+{
+    display: none;
+}
+
+.displayheader {
+    font-size: 30px;
+    padding: 12% 0 4% 0;
+    margin: 0;
+    color: #444444;
+}

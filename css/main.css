@@ -15110,7 +15110,7 @@ CSS FLIP CODE END
     color: #444444;
 }
 .productdisplay.horizontal {
-    padding: 0% 0% 15% 0%;
+    padding: 0% 0% 10% 0%;
     position: relative;
 }
 .polkabackground {
@@ -15118,7 +15118,7 @@ CSS FLIP CODE END
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 0;
+    top: 0; 
     left: 0;
     background-size: 110%;
 }

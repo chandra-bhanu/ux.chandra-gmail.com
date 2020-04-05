@@ -15003,7 +15003,7 @@ span.rbgScreen {
     width: 33%;*/
    
     text-align: center;
-    height:350px;
+    height:400px;
     padding: 0% 20px;
 }
 .productdisplay .singleproduct img {
@@ -15120,7 +15120,7 @@ CSS FLIP CODE END
     width: 100%;
     top: 0;
     left: 0;
-    background-size: 100%;
+    background-size: 110%;
 }
 .product-title {
     position: relative;

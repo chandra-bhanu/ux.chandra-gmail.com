@@ -15144,7 +15144,7 @@ CSS FLIP CODE END
 @media only screen and (max-width: 767px)
 {
      .polkabackground {
-    background: url(../images/tgbg.png) 0% 0% repeat-y rgba(216,216,216,1);
+    background: url(../images/tgbg.png) 0% 0% repeat-y rgba(216,216,216,0);
     }
         .productdisplay.horizontal {
         padding: 0% 0% 20% 0%;

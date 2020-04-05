@@ -15113,7 +15113,7 @@ CSS FLIP CODE END
     padding: 0% 0% 15% 0%;
     position: relative;
 }
-span.polkabackground {
+.polkabackground {
     background: url(../images/tgbg.png) 0% 0% no-repeat rgba(0,0,0,0);
     position: absolute;
     height: 100%;
@@ -15143,6 +15143,9 @@ span.polkabackground {
 }
 @media only screen and (max-width: 767px)
 {
+     .polkabackground {
+    background: url(../images/tgbg.png) 0% 0% repeat-y rgba(216,216,216,1);
+    }
         .productdisplay.horizontal {
         padding: 0% 0% 20% 0%;
         position: relative;
@@ -15332,9 +15335,7 @@ a.morebtn {
         font-family: HWT !important;
         font-size: 20pt !important;
     }
-    .polkabackground {
-    background: url(../images/tgbg.png) 0% 0% repeat-y rgba(0,0,0,0);
-    }
+   
     .bgLastScreen {
        
         background: url(../images/lastimg.jpg) 56% 7% no-repeat;

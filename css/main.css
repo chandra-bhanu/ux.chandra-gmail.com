@@ -944,8 +944,8 @@ header.navOpen {
 /* background: url(../images/mchikkiwave.png) 0% 0% repeat rgba(0,0,0,0) ;FADA96;*/
 }
 .mchikki {
-/*    background: url(../images/tgbg.png) 100% 0% no-repeat #FFF !important; 
-    background-size: 42% !important;*/
+    background: url(../images/tgbg.png) 100% 0% no-repeat #FFF !important; 
+    background-size: 42% !important;
 }
 .innerWrap {
     background: url(images/tgdott.png) 0% 0% no-repeat rgba(0,0,0,0) !important;
@@ -14938,8 +14938,8 @@ span.bgScreen {
     width: auto  !important; 
 }
 .mchikki {
-/*    background: url(../images/tgbg.png) 48% 50% no-repeat #FFF !important;
-    background-size: 168% !important;*/
+  background: url(../images/tgbg.png) 48% 50% no-repeat #FFF !important;
+    background-size: 168% !important;
 } 
 /*.mchikki .innerWrap {
      background:  rgba(0,0,0,0) !important;
@@ -15210,6 +15210,13 @@ a.morebtn {
 
 }
 
+
+a.morebtn:hover:before {
+  top: 0;
+}
+
+
+
 .productdisplay .fullproduct .product-title 
 {
     color: #FFFFFF !important;
@@ -15398,7 +15405,76 @@ a.morebtn {
 }
 
 
-    
-    
-   
+.prodImage {
+  position: relative;
+    height: 400px;
+    width: 100%;
+    top: 12%;
+    left: 0;
+    border: 10px solid #fff;
+}
+.prodImage img{
+    width: 100%;
+     height: 100%
+}
+
+.package {
+    width: 61%;
+    left: -31%;
+    position: absolute;
+    bottom: -2%;
+}
+.actbtn {
+    padding: 25px 0px;
+    text-align: center;
+}
+ .ximgWrap
+{
+    height: calc(90%);
+}
+  @media only screen and (max-width: 767px)
+{
+        .prodImage {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin-top: 6%;
+    left: 0;
+    border: 10px solid #fff;
+}
+    .package {
+    width: 63%;
+    left: -32%;
+    position: absolute;
+    bottom: 5%;
+}
+       .actbtn {
+    padding: 15px 0px;
+    text-align: center;
+} 
+}
+
+   .actbtn a
+{
+     transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+.bmorebtn
+{
+   color: #802428;
+    border: 3px solid #802428;
+    padding: 5px 13px;
+    font-size: 20px;
+    border-radius: 255px 15px 221px 15px/15px 225px 15px 255px;
+    z-index: 1;
+}
+a.bmorebtn:hover
+{
+     color: whitesmoke;
+      background:  #802428
+}
+
 /*product page end */
